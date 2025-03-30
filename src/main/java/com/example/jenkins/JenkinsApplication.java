@@ -16,8 +16,10 @@ public class JenkinsApplication {
 		logger.info("application is started !...*******************************************************************************************************************************************************************************************");
 	}
 	public static void main(String[] args) {
-		logger.info("application is executed ....&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+		logger.info("application is executed");
+		System.out.println("print stetments");
 		SpringApplication.run(JenkinsApplication.class, args);
+		logger.info("application is executed in side main ....!");
 	}
 
 }

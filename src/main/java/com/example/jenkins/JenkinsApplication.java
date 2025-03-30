@@ -13,10 +13,10 @@ public class JenkinsApplication {
 
 	@PostConstruct
 	public void init() {
-		logger.info("application is executed !...");
+		logger.info("application is started !...*******************************************************************************************************************************************************************************************");
 	}
 	public static void main(String[] args) {
-		logger.info("application is start ....");
+		logger.info("application is executed ....&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
 
